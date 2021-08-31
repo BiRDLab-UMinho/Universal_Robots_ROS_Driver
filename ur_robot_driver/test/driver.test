@@ -12,7 +12,7 @@
   </include>
 
   <!--If the default controller changes, this remap has to be adapted, as well-->
-  <remap from="follow_joint_trajectory" to="/scaled_pos_joint_traj_controller/follow_joint_trajectory" />
+  <remap from="follow_joint_trajectory" to="/robot/scaled_pos_joint_traj_controller/follow_joint_trajectory" />
 
   <test test-name="integration test" pkg="ur_robot_driver" type="integration_test.py" name="integration_test" time-limit="60.0"/>
 
